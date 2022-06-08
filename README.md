@@ -22,7 +22,6 @@ import holoviews as hv
 from holoviews import opts
 hv.extension('bokeh')
 
-%matplotlib inline
 ```
 
 ## Usage
