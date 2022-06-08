@@ -6,6 +6,25 @@ FB Prophet
 YFinance
 
 ## Installation Guide
+Before running the application first install the following dependencies:
+
+import pandas as pd
+import yfinance as yf
+from scipy.stats import norm
+import matplotlib.pyplot as plt
+
+from prophet import Prophet
+
+import numpy as np
+import hvplot.pandas
+import holoviews as hv
+from holoviews import opts
+hv.extension('bokeh')
+
 ## Usage
+
 ## Conclusion
+
 ## Contributors
+Sungmoo Ban, Ryan Johnson, Jung Kim, Jennifer Taylor, Danica Valera
+
