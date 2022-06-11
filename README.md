@@ -3,7 +3,7 @@
 Leveraging the fb prophet machine learning tool, input stock price data and create short-term predictions for a particular stock. Using yfinance options pricing data we will compare against the predicted prices, calculating profit probability for various confidence levels of the predicted stock price. The end goal is to determine whether or not a specific option is profitable for a specified window of time and to provide the best strike price to buy in.
 
 ## Technologies:
-* [FB Prophet](https://facebook.github.io/prophet/)
+* [FB Prophet](https://facebook.github.io/prophet/) - procedure for forecasting time series data based on an additive model
 * [YFinance](https://pypi.org/project/yfinance/) - open-source tool that uses Yahoo's publicly available API for stock/options data
 * [scipy](https://scipy.org/) - Fundamental algorithms for scientific computing in Python
 * [matplotlib](https://matplotlib.org/) - comprehensive library for creating static, animated, and interactive visualizations in Python
