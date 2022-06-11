@@ -32,7 +32,7 @@ To run this machine learning tool, simply input the ticker you want to use and h
 
 
 ## Conclusion
-Our main goal was to create a machine learning function to predict the most profitable strike price during a specific time period. For the sake of our presentation, we used Microsoft as an example. In the end, we analyzed that the most profitable strike price for Microsoft on June 17th was $265 with a 210% percentage gain. 
+Our main goal was to create a machine learning function to predict the most profitable strike price during a specific time period. For the sake of our presentation, we used Microsoft as an example. In the end, we analyzed that the most profitable strike price for Microsoft on June 17th was $262.50 with a 127% percentage gain. 
 
 ![unnamed](https://user-images.githubusercontent.com/97059769/173182187-5d035839-c6d0-413d-a2a2-e3cdd45e7987.png)
 
