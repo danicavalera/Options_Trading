@@ -41,10 +41,11 @@ One main issue we ran into was how far back we pulled our data. We originally pu
 ## Next Steps
 * Apply to daily price of options swings
 * Apply more math algorithm to get different dimensions of output
+* Other machine learning models including Neural Network
 * Backtest with historical option price
 * Define functions to automate the process of pulling data 
 * Develop Robo adviser using AWS  Lex, Sagemaker, S3 
-
+* Add risk tolerance inputs to adjust our predictions
 
 ## Contributors
 Sungmoo Ban, Ryan Johnson, Jung Kim, Jennifer Taylor, Danica Valera
