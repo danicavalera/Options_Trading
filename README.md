@@ -1,6 +1,7 @@
 # Options Trading
 ## Hypothesis
-Leveraging the fb prophet machine learning tool, input stock price data and create short-term predictions for a particular stock. Using yfinance options pricing data we will compare against the predicted prices, calculating profit probability for various confidence levels of the predicted stock price. The end goal is to determine and rank order the most profitable options trades for a specified window of time. We will then backtest these "maximized profitable trades'' against actual trading results.
+Leveraging the fb prophet machine learning tool, input stock price data and create short-term predictions for a particular stock. Using yfinance options pricing data we will compare against the predicted prices, calculating profit probability for various confidence levels of the predicted stock price. The end goal is to determine whether or not a specific option is profitable for a specified window of time and to provide the best strike price to buy in.
+
 ## Technologies:
 * FB Prophet
 * YFinance
@@ -38,6 +39,12 @@ One main issue we ran into was how far back we pulled our data. We originally pu
 
 
 ## Next Steps
+* Apply to daily price of options swings
+* Apply more math algorithm to get different dimensions of output
+* Backtest with historical option price
+* Define functions to automate the process of pulling data 
+* Develop Robo adviser using AWS  Lex, Sagemaker, S3 
+
 
 ## Contributors
 Sungmoo Ban, Ryan Johnson, Jung Kim, Jennifer Taylor, Danica Valera
