@@ -29,11 +29,13 @@ hv.extension('bokeh')
 ## Conclusion
 Our main goal was to create a machine learning function to predict the most profitable strike price during a specific time period. For the sake of our presentation, we used Microsoft as an example. In the end, we analyzed that the most profitable strike price for Microsoft on June 17th was $265 with a 210% percentage gain. 
 
-![Screenshot](image.jpg)
+![unnamed](https://user-images.githubusercontent.com/97059769/173182187-5d035839-c6d0-413d-a2a2-e3cdd45e7987.png)
+
 
 One main issue we ran into was how far back we pulled our data. We originally pulled data for 5 years, however, this caused our predictions to be fairly inaccurate due to the volatility of the stock over the years. To prove this theory, we decided to retrieve the accuracy scores of each duration by calculating the mean absolute percentage score. With the MAPE, the closer the percentage is to 0%, the more accurate the model is. Although the percentage scores are fairly similar amongst the time periods, the most accurate model was our 1 year model at 2.28%. So in the end, instead of pulling data from 5 years out, we pulled it for 1 year instead.
 
-![Screenshot](<img width="698" alt="Screen Shot 2022-06-10 at 11 26 28 PM" src="https://user-images.githubusercontent.com/97059769/173182101-90133a1f-901a-47a1-8add-ca4de44529dd.png">)
+<img width="698" alt="Screen Shot 2022-06-10 at 11 26 28 PM" src="https://user-images.githubusercontent.com/97059769/173182134-92d652df-28e8-4e11-b085-636eded56a33.png">
+
 
 ## Next Steps
 
