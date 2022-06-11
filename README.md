@@ -26,6 +26,10 @@ hv.extension('bokeh')
 ```
 
 ## Usage
+To run this machine learning tool, simply input the ticker you want to use and how far back you want to pull the data:
+
+![Screen Shot 2022-06-11 at 7 16 58 AM](https://user-images.githubusercontent.com/97059769/173198050-a7f79b24-8f95-49cb-8285-f07aba49f4fd.png)
+
 
 ## Conclusion
 Our main goal was to create a machine learning function to predict the most profitable strike price during a specific time period. For the sake of our presentation, we used Microsoft as an example. In the end, we analyzed that the most profitable strike price for Microsoft on June 17th was $265 with a 210% percentage gain. 
