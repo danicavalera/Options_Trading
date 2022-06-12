@@ -46,6 +46,10 @@ One main issue we ran into was how far back we pulled our data. We originally pu
 
 <img width="698" alt="Screen Shot 2022-06-10 at 11 26 28 PM" src="https://user-images.githubusercontent.com/97059769/173182134-92d652df-28e8-4e11-b085-636eded56a33.png">
 
+## Accuracy Model
+Using historical stock data, we used MAPE model to get the best matching forecast scores by comparing real stock data for a week and fbprophet result with the same period of time. We tested with volume of 6 month, 1 year, and 3 year data. 
+The most accurate result that we got for the time period from this model is "1 Year". So we applied 1 year period in order to get the most accurate value.
+
 
 ## Next Steps
 * Apply to daily price of options swings
